@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Home.css';
 import Product from './Product';
+import uuid from 'react-uuid';
 
 //https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UL320_.jpg
 
@@ -16,6 +17,7 @@ function Home() {
             <div className="home__row">
                     {/* Product */}
                     <Product title="The clean startup" 
+                    id={uuid()}
                     price={20}
                     rating={2}
                     image="https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UL320_.jpg"/>
@@ -28,16 +30,19 @@ function Home() {
                 <div className="home__row">
                     {/* Product */}
                     <Product title="Samsung Galaxy Fit Black (Bluetooth), SM-R370NZKAXAR – US Version with Warranty " 
+                    id={uuid()}
                     price={500}
                     rating={5}
                     image="https://m.media-amazon.com/images/I/51VUmODNuOL._AC_UY218_.jpg"/>
                     {/* Product */}
                     <Product title="Apple iPad Air 2 MH322LL/A (128GB, Wi-Fi + Cellular, Silver) 2014 Model (Renewed)" 
+                    id={uuid()}
                     price={365}
                     rating={5}
                     image="https://m.media-amazon.com/images/I/617sQTNIqKL._AC_UY218_.jpg"/>
                     {/* Product */}
                     <Product title="Dell OptiPlex 7000 7450 23.8in (1920x1080) Full HD Business ALL-IN-ONE Desktop, Intel Quad-Core i5-6500, 8GB, 500GB, Wi-Fi, Keyboard & Mouse, Windows 10 Pro - Wrt til 2021 (Renewed)" 
+                    id={uuid()}
                     price={755}
                     rating={3}
                     image="https://m.media-amazon.com/images/I/41wPWajbKRL._AC_UY218_.jpg"/>
@@ -45,6 +50,7 @@ function Home() {
                 <div className="home__row">
                     {/* Product */} 
                     <Product title="Samsung Business CH890 Series 34 inch WQHD 3440x1440 Ultrawide Curved Desktop Monitor for Business, 100 Hz, USB-C, HDMI, DP, 3 Year Warranty (LC34H890WGNXGO), Black/Titanium" 
+                    id={uuid()}
                     price={1000}
                     rating={5}
                     image="https://m.media-amazon.com/images/I/71qkzkC7bHL._AC_UY218_.jpg"/>
