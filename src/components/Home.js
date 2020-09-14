@@ -23,6 +23,7 @@ function Home() {
                     image="https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UL320_.jpg"/>
                     {/* Product */}
                     <Product title="Bose Home Speaker 500 with Alexa voice control built-in, Silver" 
+                    id={uuid()}
                     price={20}
                     rating={3}
                     image="https://m.media-amazon.com/images/I/81yLJFSZ3fL._AC_UY218_.jpg"/>
